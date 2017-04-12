@@ -3,7 +3,6 @@ cache:
   directories:
   - vendor/bundle
   - vendor/cookbooks
-sudo: false
 bundler_args: --without integration --path=$PWD/vendor/bundle
 rvm:
   - 2.2
